@@ -30,6 +30,170 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
+    <!-- Header section start -->
+    <header class="header">
+        <div class="header-1">
+          <a href="#" class="logo"> <i class="fas fa-book"></i>BookBloom</a>
+  
+          <form action="" class="search-form">
+            <input
+              type="search"
+              name=""
+              placeholder="Search here...."
+              id="search-box"
+            />
+            <label for="search-box" class="fas fa-search"></label>
+          </form>
+  
+          <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="/html/cart.html" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+          </div>
+        </div>
+        <div class="header-2 sticky">
+          <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#featured">featured</a>
+            <a href="#arrivals">arrivals</a>
+            
+            </a>
+            <a href="#reviews">reviews</a>
+            <a href="#blogs">blogs</a>
+          </nav>
+        </div>
+      </header>
+      <!-- Header section end -->
+  
+      <!-- bottom navbar -->
+  
+      <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviws" class="fas fa-comment"></a>
+        <a href="#blogs" class="fas fa-blogs"></a>
+      </nav>
+  
+      <!-- Login Form -->
+      <div class="login-form-container">
+        <div id="close-login-btn" class="fas fa-times"></div>
+        <div class="card" >
+        <div class="inner-box" id="card1">
+        <div class="frontside">
+        <form action="" >
+          <h3>Login</h3>
+          <span>username</span>
+          <input
+            type="email"
+            name=""
+            placeholder="Enter your email"
+            class="box"
+          />
+          <span>Password</span>
+          <input
+            type="password"
+            name=""
+            placeholder="Enter your password"
+            class="box"
+          />
+          <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me" />
+            <label for="remember-me">remember me</label>
+          </div>
+          <input type="submit" value="Login" class="btn" />
+          <p>forget password ? <a href="#">click here</a></p>
+          <p>don't have an account ? <a href="#" onclick="openRegister()">create one</a></p>
+        </form>
+      </div>
+      <div class="backside">
+        <form action="" >
+          <h3>Sign Up</h3>
+          <span>Name</span>
+          <input type="text"
+          class="box"
+          placeholder="Enter your name">
+          <span>Enter your email</span>
+          <input
+            type="email"
+            name=""
+            placeholder="Enter your email"
+            class="box"
+          />
+          <span>Create New Password</span>
+          <input
+            type="password"
+            name=""
+            placeholder="new password"
+            class="box"
+          />
+          <span>Confirm Password</span>
+          <input
+            type="password"
+            name=""
+            placeholder="confirm password"
+            class="box"
+          />
+          <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me" />
+            <label for="remember-me">I agree <a href="#">Terms&Condition</a></label>
+          </div>
+          <input type="submit" value="Sign Up" class="btn" />
+          <p>forget password ? <a href="#">click here</a></p>
+          <p> have an account ? <a href="#" onclick="openLogin()">login here</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+      </div>
+      <!-- home section start -->
+      <section class="home" id="home">
+        <div class="row">
+          <div class="content">
+            <h3>upto 25% off</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime
+              culpa accusamus optio? Natus sed at accusantium voluptate, sunt
+              earum non eum.
+            </p>
+            <a href="#" class="btn">Shop now</a>
+          </div>
+          <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+              <a href="#" class="swiper-slide"
+                ><img src="/images/books/book1.jpg" alt=""
+              /></a>
+              <a href="#" class="swiper-slide"
+                ><img src="/images/books/book2.jpg" alt=""
+              /></a>
+              <a href="#" class="swiper-slide"
+                ><img src="/images/books/book3.jpg" alt=""
+              /></a>
+              <a href="#" class="swiper-slide"
+                ><img src="/images/books/book4.jpg" alt=""
+              /></a>
+              <a href="#" class="swiper-slide"
+                ><img src="/images/books/kids/6386966-M.jpg" alt=""
+              /></a>
+              <a href="#" class="swiper-slide"
+                ><img src="/images/books/kids/6934834-M.jpg" alt=""
+              /></a>
+              <a href="#" class="swiper-slide"
+                ><img src="/images/books/408086-M.jpg" alt=""
+              /></a>
+              <a href="#" class="swiper-slide"
+                ><img src="/images/books/kids/7313236-M (1).jpg" alt=""
+              /></a>
+              <a href="#" class="swiper-slide"
+                ><img src="/images/books/kids/7540147-M.jpg" alt=""
+              /></a>
+            </div>
+            <img src="/images/stand/stand1.png" alt="" class="stand" />
+          </div>
+        </div>
+      </section>
+      <!-- home section end -->
     <!-- Custom JS file link -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="/js/script.js"></script>
